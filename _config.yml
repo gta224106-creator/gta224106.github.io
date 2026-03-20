@@ -35,6 +35,8 @@ description: "Jekyll Resume / CV / vCard / Portfolio and Personal Portfolio by b
 author: "Luique"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gta224106-creator.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://gta224106-creator.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
 
 # paginations & permalinks
