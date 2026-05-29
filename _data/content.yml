@@ -141,20 +141,20 @@ resume:
   experience:
     title: "Experience"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "보안 스캐너 개발"
+        subname: "팀 프로젝트 (jangijoim)."
+        period: "2026 - <b>Present</b>"
+        text: "Nuclei/Semgrep 기반 SAST/DAST 통합 보안 스캐너 개발. Scanner 역할 담당."
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "네트워크 보안 실습"
+        subname: "Korea Polytechnic University"
+        period: "2026"
+        text: "iptables 방화벽 설계, 다중 구간 네트워크 보안 환경 구축 및 DoS/포트스캔 방어 실습."
 
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "웹 취약점 분석 실습"
+        subname: "Korea Polytechnic University"
+        period: "2026"
+        text: "DVWA, WebGoat 환경에서 XSS, SQL Injection 분석. Burp Suite 활용 모의해킹 수행."
 
 ### Testimonials [ testimonials ]
 testimonials:
