@@ -35,8 +35,8 @@ description: "사이버보안 전문가 이종환의 포트폴리오입니다. �
 author: "이종환"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gta224106-creator.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://gta224106-creator.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "2026Y-04m-03d"
 
 # paginations & permalinks
