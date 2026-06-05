@@ -156,109 +156,42 @@ resume:
         period: "2026"
         text: "DVWA, WebGoat 환경에서 XSS, SQL Injection 분석. Burp Suite 활용 모의해킹 수행."
 
-### Testimonials [ testimonials ]
+### Capstone Team [ testimonials ]
 testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
+  title: "Capstone Project Team"
+  subtitle: "팀원별 담당 업무 및 핵심 개발 범위"
+  bg_title: "Project"
 
   items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
     - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      name: "장수혁 (Role 1)"
+      role: "core / 최상단"
+      text: "• 진단-패치-검증 파이프라인 자동화 오케스트레이션 엔진 개발 <br>• FastAPI 서버 구축 및 프론트엔드 연동 실시간 웹소켓 통신 구현"
 
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - image: "assets/img/testimonials/testi4-2.jpg"
+      name: "이종환 (Role 2) ★본인"
+      role: "scanner / 스캔"
+      text: "• Nuclei 래핑 기반 웹 취약점 동적(DAST) 자동 스캔 모듈 구현 <br>• Semgrep 연동 기반 소스코드 정적(SAST) 분석 스크립트 개발 <br>• 이기종 진단 도구 원시 로그의 플랫폼 표준 JSON 규격 통합 파싱"
 
     - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      name: "임주혁 (Role 3)"
+      role: "intelligence / AI"
+      text: "• Gemini API 연동 및 정오탐 판별 프롬프트 제어 <br>• 시큐어 코딩 규칙 기반 자동 패치 코드 및 마크다운 보고서 생성 <br>• 패치 적용 후 유효성 검증을 위한 PoC 자동 테스트 로직 구현"
 
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  subtitle: "my <b>Price Board</b>"
-  bg_title: "Pricing"
-
-  items:
-    - name: "Hourley Basis"
-      center: false
-      price: "39 <b>$</b>"
-      price_after: "Hour"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: false
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
-
-    - name: "Freelancing"
-      center: true
-      label: "Popular"
-      price: "259 <b>$</b>"
-      price_after: "Week"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
-
-    - name: "Full Time"
-      center: false
-      price: "1.249 <b>$</b>"
-      price_after: "Month"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: true
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+    - image: "assets/img/testimonials/testi4-4.jpg"
+      name: "조재균 (Role 4)"
+      role: "mapping / 매핑"
+      text: "• Tree-sitter 엔진 활용 웹 소스코드 구조(AST) 분석 및 정규화 <br>• 스캔 탐지 위협 정보와 소스코드 실제 취약 위치(Context) 1:1 정밀 매핑"
 
 ### Blog [ blog ]
 #items generates from dir /_posts/*
 blog:
   title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
-  bg_title: "Blog"
+  subtitle: "최근 <b>블로그 포스팅</b>"
+  bg_title: "Security"
   button:
-    label: "View Blog"
-    link: "blog/"
+    label: "티스토리 블로그 방문하기"
+    link: "https://idea16870.tistory.com/"
 
 ### Contact [ contacts ]
 contacts:
